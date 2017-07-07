@@ -7,6 +7,9 @@ module sweeto.login {
         loginButtonText: string;
         newRegistrationText: string;
         user: sweeto.user.Iuser;
+        abc: string;
+        def: number;
+        g: string;
         registeredUser: sweeto.user.Iuser[];
         constructor(private $location: ng.ILocationService) {
             this.isValidUser = true;

@@ -46,8 +46,7 @@ module sweeto.login {
              */
             if (user.length === 0) {
                 this.isValidUser = false;
-            }
-          /* tslint:disable */  else {
+            } else {
                 this.$location.path("/profile");
             }
 

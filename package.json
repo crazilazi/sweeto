@@ -4,9 +4,9 @@
   "description": "Sample app",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "tsc && concurrently \"tsc -w\" \"lite-server\" "
- },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" "
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RajeevRanjanOneadvanced/sweeto.git"
@@ -19,14 +19,25 @@
   },
   "homepage": "https://github.com/RajeevRanjanOneadvanced/sweeto#readme",
   "dependencies": {
+    "@types/typescript": "^2.0.0",
     "angular": "^1.6.2",
     "angular-route": "^1.6.2",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "install": "^0.10.1",
+    "typescript": "^2.4.1"
   },
   "devDependencies": {
     "@types/angular": "^1.6.22",
     "@types/angular-route": "^1.3.4",
+    "@types/grunt": "^0.4.21",
     "concurrently": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-ts": "^6.0.0-beta.16",
     "lite-server": "^2.3.0"
   }
 }

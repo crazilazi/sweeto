@@ -13,6 +13,8 @@ module sweeto.route {
          templateUrl: "/app/profile/profile.app.html",
         //  controller: "StoreDetailCtrl as vm",
       })
-      .otherwise("/");
+       .otherwise({
+                redirectTo: "/",
+            });
     }
 }

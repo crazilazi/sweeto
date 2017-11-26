@@ -6,15 +6,34 @@
     <title>Sweeto</title>
 
     <!-- Style sheets -->
-    <link href="styles/css/bootstrap.css" rel="stylesheet" />
+    <link href="styles/main_ahc.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/configScreen.css" rel="stylesheet" />
 </head>
 
 <body ng-app="sweeto">
     <div class="container">
-       
-      <ui-view>
-
-      </ui-view>
+        <div id="content" class="settings-page">
+            <div class="container-fluid ">
+                <!-- <div>
+                    <div class="page-header" ng-controller="sweetoController as vm">
+                        <h1>Configuration</h1>
+                        <ol class="breadcrumb" style="margin: 18px 0px 0px; font-weight: bold;">
+                            <li>
+                                <a ui-sref="config" ng-click="vm.showMenu()" class="">
+                                    Configuration
+                                </a> 
+                                <span>Configuration</span>
+                            </li>
+                        </ol>
+                    </div>  -->
+                    <ui-view>
+                        
+                    </ui-view>
+                </div>
+            </div>
+        </div>
+     
     </div>
 
     <!-- Library Scripts -->
@@ -24,13 +43,14 @@
     <!-- <script src="node_modules/angular-route/angular-route.js"></script> -->
     <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
     <!-- Application Script -->
-    <script src="app/app.js"></script>
-    <script src="app/app.route.js"></script>
-    <script src="app/login/login.app.js"></script>
+    <script src="routeTest/app.js"></script>
+    <script src="routeTest/app.route.js"></script>
+    <script src="routeTest/app.ctrl.js"></script>
+    
     <!-- Domain Classes -->
     <!-- Services -->
     <!-- Controllers -->
-    <script src="app/login/login.ctrl.js"></script>
+    
     <!---Directive---->
 
 </body>

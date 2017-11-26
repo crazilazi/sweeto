@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/RajeevRanjanOneadvanced/sweeto#readme",
   "dependencies": {
+    "@advanced/mosaic-icons": "^1.1.1",
+    "@advanced/mosaic-styles": "^1.4.1",
     "@types/typescript": "^2.0.0",
     "@uirouter/angularjs": "^1.0.6",
     "angular": "^1.6.5",

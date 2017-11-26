@@ -1,0 +1,28 @@
+<div class="ul-items">
+    <ul style="list-style: square inside none;" ng-click="vm.hideMenu()" >
+        <li>
+            <a ui-sref="config.expressbooking" class="">
+                Express Bookings
+            </a>
+        </li>
+        <li>
+            <a href="/test" class="">
+               Role Groups
+            </a>
+        </li>
+        <li>
+            <a ui-sref="#" class="">
+                Rota Planning
+            </a>
+        </li>
+        <li>
+            <a ui-sref="config.wallchart" class="">
+                Wallcharts
+            </a>
+        </li>
+    </ul>
+</div> 
+{{vm.hideMenuItems}}
+<ui-view>
+
+</ui-view>
